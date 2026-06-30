@@ -1,0 +1,7 @@
+# Day 2 下午学习笔记
+
+## 1. requests 基础
+
+### GET 请求
+```python
+resp = requests.get(url, params={"key": "value"})
