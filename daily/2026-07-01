@@ -5,3 +5,19 @@
 ### GET 请求
 ```python
 resp = requests.get(url, params={"key": "value"})
+
+---
+
+## 下午验收标准
+
+| 步骤 | 验收项 | 是否完成 |
+|---|---|---|
+| 14:00 | requests 已安装 | ☐ |
+| 14:10 | `test_requests.py` 运行成功，看到状态码和JSON | ☐ |
+| 15:00 | `test_api_demo.py` 创建完成 | ☐ |
+| 16:30 | `pytest -v -s` 全部 4 个测试通过 | ☐ |
+| 17:00 | 笔记 `day-02-pm.md` 已保存 | ☐ |
+
+---
+
+**先从第一步开始，创建 `test_requests.py`，运行后告诉我结果。**
